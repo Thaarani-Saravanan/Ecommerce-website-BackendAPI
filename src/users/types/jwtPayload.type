@@ -1,0 +1,8 @@
+import { UserRole } from 'src/shared/enums/UserRole.enum';
+
+export type jwtPayload = {
+  _id: string;
+  email: string;
+  role: UserRole;
+  username: string;
+};
